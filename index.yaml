@@ -3,7 +3,7 @@ entries:
   docker-mailserver:
   - apiVersion: v2
     appVersion: 8.0.1
-    created: "2021-08-12T23:19:55.93986175Z"
+    created: "2021-12-29T14:47:08.033343376Z"
     dependencies:
     - alias: haproxy
       condition: haproxy.enabled
@@ -11,7 +11,7 @@ entries:
       repository: https://haproxytech.github.io/helm-charts
       version: 1.1.3
     description: A fullstack but simple mailserver (smtp, imap, antispam, antivirus, ssl...) using Docker.
-    digest: 7bf91eb869e444400e04f0e755daa785130c9a27f697bb685cceeb55a7082199
+    digest: 955e8a51e12878e8610c5ad3ea5ce6324a678d3877b4d56f44f6a44e97d32104
     home: https://github.com/funkypenguin/helm-docker-mailserver
     icon: https://avatars.githubusercontent.com/u/76868633?s=400&v=4
     keywords:
@@ -27,6 +27,6 @@ entries:
     sources:
     - https://github.com/funkypenguin/helm-docker-mailserver
     urls:
-    - https://github.com/funkypenguin/helm-docker-mailserver/releases/download/docker-mailserver-0.3.0/docker-mailserver-0.3.0.tgz
-    version: 0.3.0
-generated: "2021-08-12T23:19:55.780620259Z"
+    - https://github.com/funkypenguin/helm-docker-mailserver/releases/download/docker-mailserver-0.3.1/docker-mailserver-0.3.1.tgz
+    version: 0.3.1
+generated: "2021-12-29T14:47:07.884118234Z"
