@@ -10,7 +10,6 @@ spec:
     name: {{ default "letsencrypt-staging" .Values.ssl.issuer.name }}
     kind: {{ default "ClusterIssuer" .Values.ssl.issuer.kind }}
   dnsNames:
-  - {{ default "example.com" .Values.ssl.dnsname }}
     - '*.{{ default "example.com" .Values.ssl.dnsname }}'
     - {{ default "example.com" .Values.ssl.dnsname }}
 {{- end -}}
